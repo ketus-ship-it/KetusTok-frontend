@@ -1,0 +1,14 @@
+.App {
+  font-family: Arial, sans-serif;
+  background: black;
+  color: white;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.videoFeed {
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+}
+
